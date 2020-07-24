@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   s.authors      = package["author"]
 
   s.platforms    = { :ios => "9.0" }
-  s.source       = { :git => "https://cloud.tencent.com/document/product/436.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/tencentyun/cos-xml-react-native.git", :tag => "#{s.version}" }
 
   
   s.source_files = "ios/**/*.{h,m,mm}"

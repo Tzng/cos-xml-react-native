@@ -36,13 +36,13 @@
     "COS",
     "Tencent Cloud"
   ],
-  "repository": "https://cloud.tencent.com/document/product/436",
-  "author": "wjielai <wjielai@tencent.com> (https://cloud.tencent.com/document/product/436)",
+  "repository": "https://github.com/tencentyun/cos-xml-react-native",
+  "author": "wjielai <wjielai@tencent.com> (https://github.com/konakonall)",
   "license": "MIT",
   "bugs": {
-    "url": "https://cloud.tencent.com/document/product/436/issues"
+    "url": "https://github.com/tencentyun/cos-xml-react-native/issues"
   },
-  "homepage": "https://cloud.tencent.com/document/product/436#readme",
+  "homepage": "https://github.com/tencentyun/cos-xml-react-native#readme",
   "devDependencies": {
     "@commitlint/config-conventional": "^8.3.4",
     "@react-native-community/bob": "^0.16.2",
