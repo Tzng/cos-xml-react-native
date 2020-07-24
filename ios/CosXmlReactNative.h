@@ -1,5 +1,6 @@
 #import <React/RCTBridgeModule.h>
+#import <React/RCTEventEmitter.h>
 
-@interface CosXmlReactNative : NSObject <RCTBridgeModule>
+@interface CosXmlReactNative : RCTEventEmitter <RCTBridgeModule>
 
 @end

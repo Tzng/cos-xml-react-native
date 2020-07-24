@@ -1,6 +1,6 @@
 {
   "name": "cos-xml-react-native",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Tencent COS XML SDK for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -32,7 +32,9 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "COS",
+    "Tencent Cloud"
   ],
   "repository": "https://cloud.tencent.com/document/product/436",
   "author": "wjielai <wjielai@tencent.com> (https://cloud.tencent.com/document/product/436)",
@@ -119,7 +121,10 @@
       ]
     }
   },
-  "eslintIgnore": ["node_modules/", "lib/"],
+  "eslintIgnore": [
+    "node_modules/",
+    "lib/"
+  ],
   "prettier": {
     "quoteProps": "consistent",
     "singleQuote": true,
@@ -130,6 +135,10 @@
   "@react-native-community/bob": {
     "source": "src",
     "output": "lib",
-    "targets": ["commonjs", "module", "typescript"]
+    "targets": [
+      "commonjs",
+      "module",
+      "typescript"
+    ]
   }
 }
